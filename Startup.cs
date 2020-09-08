@@ -32,7 +32,7 @@ namespace AzureTest
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello World! We have now added a feature by changing the string.");
                 });
             });
         }
